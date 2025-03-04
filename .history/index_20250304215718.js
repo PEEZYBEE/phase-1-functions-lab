@@ -27,4 +27,16 @@ function distanceFromHqInBlocks(startingBlock) {
     }
   }
   
+  module.exports = { distanceFromHqInBlocks, distanceFromHqInFeet, distanceTravelledInFeet, calculatesFarePrice };
+  Ensure Proper Exporting and Importing: Make sure you're exporting these functions from your index.js file and importing them into your test file (indexTest.js).
   
+  In index.js:
+  
+  javascript
+  Copy
+  module.exports = { 
+    distanceFromHqInBlocks, 
+    distanceFromHqInFeet, 
+    distanceTravelledInFeet, 
+    calculatesFarePrice 
+  };
